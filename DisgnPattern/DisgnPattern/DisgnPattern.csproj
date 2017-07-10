@@ -41,8 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Product\AbstractFactory.cs" />
+    <Compile Include="Product\BuilderPattern.cs" />
+    <Compile Include="Product\FactoryMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Product\PrototypePattern.cs" />
+    <Compile Include="Product\SimpleFactory.cs" />
+    <Compile Include="Product\Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

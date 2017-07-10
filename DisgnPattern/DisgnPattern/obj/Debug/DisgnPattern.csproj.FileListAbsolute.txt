@@ -1,1 +1,6 @@
 F:\GitProject\DisgnPattern\DisgnPattern\DisgnPattern\bin\Debug\DisgnPattern.exe.config
+F:\GitProject\DisgnPattern\DisgnPattern\DisgnPattern\bin\Debug\DisgnPattern.exe
+F:\GitProject\DisgnPattern\DisgnPattern\DisgnPattern\bin\Debug\DisgnPattern.pdb
+F:\GitProject\DisgnPattern\DisgnPattern\DisgnPattern\obj\Debug\DisgnPattern.csprojResolveAssemblyReference.cache
+F:\GitProject\DisgnPattern\DisgnPattern\DisgnPattern\obj\Debug\DisgnPattern.exe
+F:\GitProject\DisgnPattern\DisgnPattern\DisgnPattern\obj\Debug\DisgnPattern.pdb

@@ -13,7 +13,7 @@ namespace DisgnPattern
         static void Main(string[] args)
         {
 
-            TestBuilderPattern();
+            PrototypePattern();
 
 
             Console.ReadKey();
@@ -121,6 +121,24 @@ namespace DisgnPattern
 
         }
 
+        #endregion
+
+        #region 原型模式
+        public static void PrototypePattern()
+        {
+            MonkeyKingPrototype prototypeMonkeyKing = new ConcretePrototype("MonkeyKing");
+
+            // 变一个
+            MonkeyKingPrototype cloneMonkeyKing = prototypeMonkeyKing.Clone() as ConcretePrototype;
+            Console.WriteLine("Cloned1:\t" + cloneMonkeyKing.Id);
+
+            
+
+            // 变两个
+            MonkeyKingPrototype cloneMonkeyKing2 = prototypeMonkeyKing.Clone() as ConcretePrototype;
+            Console.WriteLine("Cloned2:\t" + cloneMonkeyKing2.Id);
+            Console.ReadLine();
+        }
         #endregion
 
 
