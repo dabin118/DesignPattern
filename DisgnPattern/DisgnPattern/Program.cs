@@ -1,4 +1,5 @@
 ﻿using DisgnPattern.Product;
+using DisgnPattern.Struct;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +14,13 @@ namespace DisgnPattern
         static void Main(string[] args)
         {
 
-            PrototypePattern();
+            TestAdapter();
 
 
             Console.ReadKey();
         }
 
+        #region 创建型模式
         #region  单例模式
         public static void TestSingleton()
         {
@@ -132,7 +134,7 @@ namespace DisgnPattern
             MonkeyKingPrototype cloneMonkeyKing = prototypeMonkeyKing.Clone() as ConcretePrototype;
             Console.WriteLine("Cloned1:\t" + cloneMonkeyKing.Id);
 
-            
+
 
             // 变两个
             MonkeyKingPrototype cloneMonkeyKing2 = prototypeMonkeyKing.Clone() as ConcretePrototype;
@@ -140,7 +142,21 @@ namespace DisgnPattern
             Console.ReadLine();
         }
         #endregion
+        #endregion
 
+
+        #region 结构型模式
+        #region 适配器模式
+
+        public static void TestAdapter()
+        {
+            AdapterPattern.Test();
+        }
+
+
+        #endregion
+
+        #endregion
 
 
     }
