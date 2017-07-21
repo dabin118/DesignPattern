@@ -14,7 +14,7 @@ namespace DisgnPattern
         static void Main(string[] args)
         {
 
-            TestAdapter();
+            TestBridge();
 
 
             Console.ReadKey();
@@ -153,6 +153,15 @@ namespace DisgnPattern
             AdapterPattern.Test();
         }
 
+
+        #endregion
+
+        #region 桥接模式
+
+        public static void TestBridge()
+        {
+            BridgePattern.TestBridgePattern();
+        }
 
         #endregion
 

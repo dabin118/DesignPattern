@@ -50,6 +50,7 @@
     <Compile Include="Product\SimpleFactory.cs" />
     <Compile Include="Product\Singleton.cs" />
     <Compile Include="Struct\AdapterPattern.cs" />
+    <Compile Include="Struct\BridgePattern.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
