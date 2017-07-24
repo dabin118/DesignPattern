@@ -51,6 +51,8 @@
     <Compile Include="Product\Singleton.cs" />
     <Compile Include="Struct\AdapterPattern.cs" />
     <Compile Include="Struct\BridgePattern.cs" />
+    <Compile Include="Struct\CompositePattern.cs" />
+    <Compile Include="Struct\DecoratorPattern.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

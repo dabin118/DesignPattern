@@ -14,7 +14,7 @@ namespace DisgnPattern
         static void Main(string[] args)
         {
 
-            TestBridge();
+            TestCompositePattern();
 
 
             Console.ReadKey();
@@ -164,6 +164,24 @@ namespace DisgnPattern
         }
 
         #endregion
+
+        #region 装饰者模式
+        public static void TestDecoratorPattern()
+        {
+            DecoratorPattern.Test();
+        }
+
+        #endregion
+
+        #region 组合模式
+
+        public static void TestCompositePattern()
+        {
+            CompositePattern.Test();
+        }
+
+        #endregion
+
 
         #endregion
 
