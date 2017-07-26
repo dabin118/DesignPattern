@@ -7,6 +7,22 @@ using System.Threading.Tasks;
 namespace DisgnPattern.Product
 {
 
+
+    public class AbstractFactory
+    {
+        public static void Test()
+        {
+            AbstractFactoryTest hangzhou = new HangzhouFactory();
+            hangzhou.CreateA().Print();
+            hangzhou.CreateB().Print();
+
+            AbstractFactoryTest shanghai = new ShangHaiFactory();
+            shanghai.CreateA().Print();
+            shanghai.CreateB().Print();
+        }
+
+    }
+
     //抽象工厂模式
     //提供一个创建产品的接口来负责创建相关或依赖的对象，而不具体明确指定具体类
 
@@ -133,7 +149,7 @@ namespace DisgnPattern.Product
     //抽象，将对象的创建封装起来，
     //将具体产品的创建延迟到具体工厂的子类中
     //可以减少客户端与具体产品类之间的依赖，从而使系统耦合度低，（减少ShangHaiFactory.CreateA 与 ShangHaiProductA）的联系
-    //这样更有利于后期的维护和扩展
+    //这样更于有利后期的维护和扩展
 
     //缺点：
     //很难支持新种类产品的变化。

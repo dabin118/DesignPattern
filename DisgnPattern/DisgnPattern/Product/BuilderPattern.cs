@@ -9,6 +9,29 @@ namespace DisgnPattern.Product
     //建造者模式 当需要创建一个复杂对象，并且这个复杂对象由其各部分子对象通过一定的步骤组合而成。可以采用建造者模式来解决这个问题
 
 
+    public class BuilderPattern
+    {
+        public static void Test()
+        {
+            // 客户找到电脑城老板说要买电脑，这里要装两台电脑
+            // 创建指挥者和构造者
+            Director director = new Director();
+            Builder b1 = new ConcreteBuilder1();
+            Builder b2 = new ConcreteBuilder2();
+
+            // 老板叫员工去组装第一台电脑
+            director.Construct(b1);
+
+            // 组装完，组装人员搬来组装好的电脑
+            Computer computer1 = b1.GetComputer();
+            computer1.Show();
+
+            // 老板叫员工去组装第二台电脑
+            director.Construct(b2);
+            Computer computer2 = b2.GetComputer();
+            computer2.Show();
+        }
+    }
 
 
     //以装电脑为例
