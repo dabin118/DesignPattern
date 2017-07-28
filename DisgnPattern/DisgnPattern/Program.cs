@@ -14,7 +14,7 @@ namespace DisgnPattern
         static void Main(string[] args)
         {
 
-            TestCompositePattern();
+            TestProxyPattern();
 
 
             Console.ReadKey();
@@ -72,7 +72,7 @@ namespace DisgnPattern
         public static void TestPrototypePattern()
         {
             PrototypePattern.Test();
-            
+
         }
         #endregion
         #endregion
@@ -115,6 +115,29 @@ namespace DisgnPattern
 
         #endregion
 
+        #region 外观模式
+        public static void TestFacadePattern()
+        {
+            FacadePattern.Test();
+        }
+
+
+        #endregion
+
+        #region 享元模式
+        public static void TestFlyweightPattern()
+        {
+            FlyweightPattern.Test();
+        }
+
+        #endregion
+
+        #region 代理模式
+        public static void TestProxyPattern()
+        {
+            ProxyPattern.Test();
+        }
+        #endregion
 
         #endregion
 

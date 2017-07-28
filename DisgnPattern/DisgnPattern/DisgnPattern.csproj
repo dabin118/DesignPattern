@@ -53,6 +53,9 @@
     <Compile Include="Struct\BridgePattern.cs" />
     <Compile Include="Struct\CompositePattern.cs" />
     <Compile Include="Struct\DecoratorPattern.cs" />
+    <Compile Include="Struct\FacadePattern.cs" />
+    <Compile Include="Struct\FlyweightPattern.cs" />
+    <Compile Include="Struct\ProxyPattern.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
