@@ -41,6 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavior\ChainOfResponsibity.cs" />
+    <Compile Include="Behavior\CommandPattern.cs" />
+    <Compile Include="Behavior\IteratorPattern.cs" />
+    <Compile Include="Behavior\MediatorPattern.cs" />
+    <Compile Include="Behavior\MementoPattern.cs" />
+    <Compile Include="Behavior\ObserverPattern.cs" />
+    <Compile Include="Behavior\StatePattern.cs" />
+    <Compile Include="Behavior\StragetyPattern.cs" />
+    <Compile Include="Behavior\TemplateMethodPattern.cs" />
+    <Compile Include="Behavior\VistorPattern.cs" />
     <Compile Include="Product\AbstractFactory.cs" />
     <Compile Include="Product\BuilderPattern.cs" />
     <Compile Include="Product\FactoryMethod.cs" />

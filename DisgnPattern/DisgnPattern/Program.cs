@@ -1,4 +1,5 @@
-﻿using DisgnPattern.Product;
+﻿using DisgnPattern.Behavior;
+using DisgnPattern.Product;
 using DisgnPattern.Struct;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace DisgnPattern
         static void Main(string[] args)
         {
 
-            TestProxyPattern();
+            TestTemplateMethodPattern();
 
 
             Console.ReadKey();
@@ -140,6 +141,18 @@ namespace DisgnPattern
 
         #endregion
 
+
+        #region 行为型模式
+        #region 模板方法模式
+
+        public static void TestTemplateMethodPattern()
+        {
+            TemplateMethodPattern.Test();
+        }
+
+        #endregion
+
+        #endregion
 
     }
 }
