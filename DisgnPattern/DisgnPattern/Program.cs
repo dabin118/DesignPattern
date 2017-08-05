@@ -15,7 +15,7 @@ namespace DisgnPattern
         static void Main(string[] args)
         {
 
-            TestTemplateMethodPattern();
+            TestCommandPattern();
 
 
             Console.ReadKey();
@@ -151,6 +151,24 @@ namespace DisgnPattern
         }
 
         #endregion
+
+
+        #region 命令模式
+
+        public static void TestCommandPattern()
+        {
+            CommandPattern.Test();
+        }
+
+        #endregion
+
+        #region 迭代器模式
+        public static void TestIteratorPattern()
+        {
+            IteratorPattern.Test();
+        }
+        #endregion
+
 
         #endregion
 

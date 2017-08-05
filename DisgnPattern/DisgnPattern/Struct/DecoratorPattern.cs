@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DisgnPattern.Struct
 {
+    //装饰者模式：要对一个对象添加不同的功能，如果用继承类来实现的话，那就要定义很多类，使用装饰者模式用来给一个对象添加额外的职责
     public class DecoratorPattern
     {
 
@@ -34,7 +35,7 @@ namespace DisgnPattern.Struct
         }
     }
 
-    //装饰者模式：要对一个对象添加不同的功能，如果用继承类来实现的话，那就要定义很多类，使用装饰者模式用来给一个对象添加额外的职责
+    
     //装饰者模式以对客户透明的方式动态地给一个对象附加上更多的责任，装饰者模式相比生成子类可以更灵活地增加功能。
 
 

@@ -20,7 +20,7 @@ namespace DisgnPattern.Behavior
         {
             Spinach spinach = new Spinach();
             spinach.CookVegetable();
-            
+
         }
     }
     //把相同的部分抽象出来到抽象类中去定义，具体子类来实现具体的不同部分，
@@ -63,7 +63,7 @@ namespace DisgnPattern.Behavior
         {
             Console.WriteLine("添加调味");
         }
-            
+
     }
 
 
@@ -82,4 +82,10 @@ namespace DisgnPattern.Behavior
             Console.WriteLine("把大白菜倒进锅中");
         }
     }
+
+
+    //优点：
+    //实现了代码复用
+    //能够灵活应对子步骤的变化，符合开放-封闭原则
+    //缺点：因为引入了一个抽象类，如果具体实现过多的话，需要用户或开发人员需要花更多的时间去理清类之间的关系。
 }
