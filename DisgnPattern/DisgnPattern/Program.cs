@@ -169,6 +169,14 @@ namespace DisgnPattern
         }
         #endregion
 
+        #region 观察者模式
+
+        public static void TestObserverPattern()
+        {
+            ObserverPattern.Test();
+        }
+
+        #endregion
 
         #endregion
 
