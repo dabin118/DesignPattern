@@ -13,7 +13,7 @@ namespace DisgnPattern.Behavior
         public static void Test()
         {
 
-            //一般代码的实现观察者模式
+            ////一般代码的实现观察者模式
             TenXun tenXun = new TenXunGame("腾讯游戏", "推送信息");
 
             // 添加订阅者

@@ -15,7 +15,7 @@ namespace DisgnPattern
         static void Main(string[] args)
         {
 
-            TestCommandPattern();
+            TestMediatorPattern();
 
 
             Console.ReadKey();
@@ -174,6 +174,22 @@ namespace DisgnPattern
         public static void TestObserverPattern()
         {
             ObserverPattern.Test();
+        }
+
+        #endregion
+
+        #region 中介者模式
+        public static void TestMediatorPattern()
+        {
+            MediatorPattern.Test();
+        }
+        #endregion
+
+        #region 状态者模式
+
+        public static void TestStatePattern()
+        {
+            StatePattern.Test();
         }
 
         #endregion
